@@ -38,9 +38,30 @@ header nav ul li{
 }
 #seccion01 article img{
 	border:5px solid rgba(160,160,160,0.5);
-	margin-top:15px;
+	width: 98%;
+	margin-top:10px;
+}
+#seccion02 article{
+	display:inline-block;
+	vertical-align: top;
+	width:32%;
+}
+#seccion02 article input[type="submit"]{
+	background: white;
+	border-radius: 5px;
+	color:blue;
+	margin-left: 130px
 }
 #logo /*es un id*/
 {
 	margin-top:-130px;
+}
+.unaSeccion,.otraSeccion{
+	font-weight:bold; /*negritas*/
+}
+.unaSeccion{ /*es una clase*/
+	font-size: 4.5em;
+}
+.otraSeccion{
+	font-size: 2.5em;
 }
