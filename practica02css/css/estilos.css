@@ -54,5 +54,54 @@ header input{
 	width: 60%;
 }
 #secc01art02{
+	margin-left:50px;
 	width: 30%;
+}
+#secc01art02 ul{
+	list-style:none;
+}
+#secc01art02 ul li:before{
+	content:"• ";
+	color:#FF0099;
+	margin-left: -35px;
+}
+#segundaseccion article{
+	text-align: right;
+	padding-right:160px;
+}
+#terceraseccion article{
+	display:inline-block;
+	vertical-align:top;
+	width: 23%;
+}
+#terceraseccion article img{
+	vertical-align: middle; alineacion del texto con l
+}
+
+#terceraseccion article input[type="submit"]{
+	
+	background: green;
+	border-radius: 5px;
+	color:white;
+}/*
+#terceraseccion article input[type="email"]{
+	margin-top:55px;
+}*/
+.colorrosa{
+	color:#e8198e;
+}
+.comuntitulo{
+	font-size:1.5em;
+}
+.stayintouch{
+	margin-top:55px;
+}
+.nito{
+	font-weight: bold;
+}
+.rosamediano{
+	font-size:2em;
+}
+.rosagrande{
+	font-size:3.5em;
 }
