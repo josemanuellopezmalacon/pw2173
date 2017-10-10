@@ -8,6 +8,15 @@ body{
 	float:right;
 	margin-top:30px;*/
 }
+.colornaranja {
+	background:orange;
+	text-align: center;
+}
+.TitulodelPost{
+	font-size: 1.8em;
+	font-weight:bold;
+}
+
 header nav{
 	background: orange;
 	border-radius:5px;
@@ -19,4 +28,32 @@ header nav ul li{
 	color:white;
 	display:inline-block;
 	margin-right:20px;
+}
+
+#seccion01 {
+	display:inline-block;
+	
+}
+#art01{
+	border-bottom:1px solid gray;
+	width:51%;
+}
+#art02{
+	margin-left: 650px;
+	vertical-align: top;
+	width:45%;
+}
+#seccion02 article{
+ display:inline-block;
+}
+#secc02art01{
+	width:20%;
+	/*vertical-align: top;*/
+}
+#secc02art02{
+	width:30%;
+}
+#secc02art03{
+	width:30%;
+	vertical-align: top;
 }
