@@ -52,3 +52,35 @@ h2 ~ p{
 	color:grey;
 }
 
+#Resumen,#Experimento,#Pruebas,#Resultados,#Conclusiones{
+	color:tomato;
+}
+
+/*seleccionar todos menos la que no quiero*/
+section:not(#Referencias){
+	color:hotpink;
+}
+/*Seleccionar elemento LI pares e impares*/
+li:nth-child(odd){ /*impar*/
+	color:green;
+}
+li:nth-child(even){ /*par*/
+	color:blue;
+}
+li:nth-child(5){ /*Quinto elemento*/
+	color:red;
+}
+li:nth-last-child(1){ /*Ultimo elemento,tiene el 1 porque esta de arriba para abajo*/
+	color:yellow;
+}
+/*Primer y ultimo elemento*/
+article:nth-child(1){
+	color:green;
+}
+article:last-child{
+	color:yellow;
+}
+p:first-line{
+	font-weight:bold;
+	/*text-transform:capitalize;*/
+}
