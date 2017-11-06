@@ -1,0 +1,10 @@
+JavaScript: (lenguaje de programación)
+*Se integra con HTML para validaciones
+*LiveScript (menos poderoso)
+*Sintaxis JAVA (If,while,etc..)
+*Punto y coma es opcional(recomienda)
+*Elimina el ocultamiento
+(Se mira el codigo del lado del cliente)
+*Existe JavaScript del lado del servidor en distintas aplicaciones
+*No es tipado,es decir, no hay que declarar el tipo de datos en las variables.
+
