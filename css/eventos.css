@@ -1,0 +1,35 @@
+body{
+	font-size:16px; 
+	margin:0 auto; 
+	max-width: 1024px; 
+	min-width: 1024px;
+}
+section{
+	background: black;
+	border:1px solid black;
+	border-radius: 5px;
+	box-shadow:15px 15px 15px rgba(50,50,50,0.7);
+	margin:0 auto;
+	padding:10px;
+	width:400px;
+}
+section article{
+	background: white;
+	border:1px solid black;
+	border-radius: 5px;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding:10px 10px 10px 10px;
+	width:300px;
+}
+section img{
+	border:1px solid black;
+	margin-left:130px;
+}
+section button{
+	margin-left:150px;
+	font-size:2em;
+	border-radius:5px;
+	background:white;
+}
