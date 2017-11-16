@@ -1,3 +1,22 @@
+//constantes de electron
+const {BrowserWindow}= require('electron').remote;
+const app = require('electron').app;
+const path = require('path');
+const url = require('url');
+//Otra ventana
+let ventanaCalculadoraCientifica;
+
+function calculadoraCientifica(){
+	ventanaCalculadoraCientifica = new BrowserWindow({width:380,height:380});
+	ventanaCalculadoraCientifica.loadURL(url.format({
+		pathname: path.join(__dirname,'calccientifica.html'),
+		protocol: 'file',
+		slashes: true
+	}));
+	//ventanaCalculadoraCientifica.webContents.openDevTools();
+	ventanaCalculadoraCientifica.show();
+}
+
 //variable global
 var operador=""
 function numeros(num){

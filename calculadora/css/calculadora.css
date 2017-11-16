@@ -17,3 +17,12 @@ form input{
 	border-radius: 5px;
 	font-size:23px;
 }
+
+#btnCientifica {
+	background: blue;
+	border-radius: 5px;
+	color: white;
+	height: 50px;
+	font-weight: bold;
+	width: 100px;
+}
