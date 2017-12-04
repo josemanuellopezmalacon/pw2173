@@ -8,13 +8,19 @@ var inicia = function(){
 					   "&id="+Math.random();
 
 		$.ajax({
-			url:"localhost/pw/php/entrada.php",
-			dataType:'json',
-			succes:function(data){
-
+			url:"php/entrada.php",
+			dataType:'json', //retorno
+			type: "POST",
+			data: parametros, 
+			success:function(data){
+				if(data.respuesta==true){
+					alert("Bienvenido");
+				}else{
+					alert("Usuario y/o clave incorrectos");
+				}
 			},
 			error:function(a,b,c){
-
+				alert("No se pudo conectar al server");
 			}
 
 		});
