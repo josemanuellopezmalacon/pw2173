@@ -14,7 +14,7 @@ function guardaAlumno(){
 		$respuesta=true;
 	}
 	$salida= array('respuesta'=>$respuesta);
-	print json_enconde($salida);
+	print json_encode($salida);
 }
 $opc=$_POST["opc"];
 	switch ($opc) {
